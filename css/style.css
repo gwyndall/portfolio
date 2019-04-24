@@ -77,7 +77,7 @@ footer {
 	color: #FFE4C7;
 	text-align: center;
 	font-family: Merriweather, serif;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-weight: 100;
 	clear: both;
 	position: fixed;
@@ -249,7 +249,7 @@ img.about {
 #arrow {
 	height: 350px;
 	width: 381px;
-	background: url('images/ingredients1.png');
+	background: url('../images/ingredients1.png');
 	background-size: cover;
 	z-index: 3;
 	transition: .5s ease;
@@ -317,6 +317,14 @@ nav a {
 nav a:hover {
 	color: #233339;
 	background-color: #15B7F5;
+}
+
+.fas {
+	font-size: 3rem;
+	color: white;
+	opacity: .25;
+	align-self: left;
+	margin: 20px;
 }
 
 @-webkit-keyframes pulse {
@@ -394,6 +402,9 @@ nav a:hover {
 	margin: auto;
 	padding-left: 5em;
 	align-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .gallery>figure {
