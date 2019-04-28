@@ -1,7 +1,7 @@
 
 // Basic code for responsive canvas triangle:
 // https://stackoverflow.com/questions/54805017/how-to-draw-triangle-programmatically-on-canvas-in-javascript
-var canvasWidth = window.innerWidth/2;
+var canvasWidth = document.documentElement.clientWidth/2;
 var canvasElement = document.querySelector("#myCanvas");
 var context = canvasElement.getContext("2d");
 // the width of the canvas
@@ -58,3 +58,4 @@ var lmargin = canvasWidth/2 - cheight/3.3 ;
 
 document.getElementById("logo").style.marginTop = cheight/8 +'px';
 document.getElementById("logo").style.marginLeft = lmargin+'px';
+document.getElementsByClassName("whole").innerHTML = "fontSize = '1rem'";

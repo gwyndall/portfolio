@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Whole Wheat Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Raleway:400,400i,800&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+        /* Sets color for current page's link */
+        #home {
+            color: #0C455B;
+            background-color: #FFF1C7;
+        }
+
+        #home:hover {
+            color: #3B788F;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Menu icon -->
+        <!-- <i class="fas fa-plus-square"></i> -->
+        <div class="overlay home" id="navBar">
+				<canvas id="smallCanvas" width="256" height="106"></canvas>
+				<a href="index.html" id="home"><img src="images/WheatLogo.png" alt="wheat logo" id="logosm" width="80">		
+				Home</a>
+				<a href="web.html" id="web">Web</a>
+				<a href="graphics.html" id="graphics">Graphics</a>
+				<!-- <a href="motion.html" id="motion">Motion</a>  -->
+				<a href="about.html" id="about">About</a>
+<!-- 				<a href="contact.html" id="contact">Contact</a> -->
+			</nav>
+        </div>
+    </div>
+    <div id="wrapper">
+
+
+        <div id="logoDiv">
+            <a href="index.html"><img src="images/WheatLogo.png" alt="wheat logo" id="logo"></a>
+
+            <canvas id="myCanvas">
+            </canvas>
+        </div>
+
+
+        <div id="arrow" class="arrowOff pulse"> </div>
+
+        <div id="brand">
+            <div class="wholeDiv" id="wholeDiv">
+                <span class="whole">Whole</span><br>
+                <span class="wheat"><span id="wh">W</span>heat</span><br>
+                <span class="designs">Designs</span>
+            </div>
+            <img src="images/taste.png" alt="same great taste" id="taste">
+        </div>
+
+    </div>
+    <footer>
+        Copyright &copy; 2019 Carolyn E. Wheat. &nbsp; &nbsp; All rights reserved.
+    </footer>
+
+    <!--Load scripts here-->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <!-- <script src="./script/template.js"></script> -->
+    <script src="./script/mainCanvas.js"></script>
+    <script src="./script/smCanvas.js"></script>
+</body>
+
+</html>
