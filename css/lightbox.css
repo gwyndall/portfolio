@@ -14,7 +14,8 @@
   text-align: center;
   top: 0;
   left: 0;
-  background: #3B788F;
+  background: rgba(0, 0, 0, 0.9);
+  /* background: #3B788F; */
   text-decoration: none;
 }
 
@@ -27,20 +28,20 @@
 	text-decoration: none;
 	display: inline-block;
 	max-width: 40%;
-	margin: 2em 2em;
+	margin: 2rem 2rem;
 	vertical-align: top;
 	background: rgba(0,0,0,0.9);
-	padding: 2em;
-	border-radius: 1em;
+	padding: 2rem;
+	border-radius: 1rem;
 }
 
 
 .lightbox img {
   /** Pad the lightbox image */
-  max-width: 80%;
+  max-width: 50%;
   max-height: 80%;
   margin-top: 2%;
-  border: 5px solid black;
+  border: 5px solid white;
 }
 
 .lightbox:target {

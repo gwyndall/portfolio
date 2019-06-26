@@ -53,6 +53,7 @@ context.fillStyle = "#FFF";
 context.fill();
 
 document.getElementById("logo").setAttribute('height', cheight/1.65);
+document.getElementById("logo").setAttribute('width', cheight/1.65);
 
 var lmargin = canvasWidth/2 - cheight/3.3 ;
 
