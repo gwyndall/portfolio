@@ -15,7 +15,7 @@ let a = 30,
     b = 30;
 // In this case you have an isosceles triangle since a = b = 30
 // this triangle is circumscribed in a circle with a radius = 30
-let R = canvasWidth/2 - 15;
+let R = canvasWidth/2 - 50;
 // calculate the angle between the two sides of equal length
 let angle = 120;
 
@@ -35,7 +35,7 @@ var triangle = {
     y2: cy,
     //calculate the 3-rd vertex
     x3: cx,
-    y3: 1.5 *  cheight * Math.sin(angle) 
+    y3: 1.25 *  cheight * Math.sin(angle) 
 };
 
 context.beginPath();
@@ -52,11 +52,11 @@ context.stroke();
 context.fillStyle = "#FFF";
 context.fill();
 
-document.getElementById("logo").setAttribute('height', cheight/1.65);
-document.getElementById("logo").setAttribute('width', cheight/1.65);
+document.getElementById("logo").setAttribute('height', cheight/1.85);
+document.getElementById("logo").setAttribute('width', cheight/1.85);
 
-var lmargin = canvasWidth/2 - cheight/3.3 ;
+var lmargin = canvasWidth/2 - cheight/3.7 ;
 
-document.getElementById("logo").style.marginTop = cheight/8 +'px';
+document.getElementById("logo").style.marginTop = cheight/10 +'px';
 document.getElementById("logo").style.marginLeft = lmargin+'px';
-document.getElementsByClassName("whole").innerHTML = "fontSize = '1rem'";
+// document.getElementsByClassName("whole").innerHTML = "fontSize = '1rem'";
