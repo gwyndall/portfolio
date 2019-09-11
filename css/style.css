@@ -167,10 +167,11 @@ footer {
 	font-family: Merriweather;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	line-height: 1;
 	color: #0C455B;
-	margin-left: 9rem;
+	margin-left: 13rem;
+	text-align: center;
 }
 
 .wholeDiv {
@@ -196,10 +197,15 @@ footer {
 	font-style: normal;
 	font-weight: 800;
 	font-size: 3rem;
+	margin-left: 2rem;
 }
 
 #brand {
 	margin: 1.5em 2em 3em 2em;
+	position: relative;
+	left: -4rem;
+	top: 3rem;
+
 }
 
 .hamMenu {
@@ -299,6 +305,8 @@ img.about {
 	background-size: cover;
 	z-index: 3;
 	transition: .5s ease;
+	position: relative;
+
 }
 
 
