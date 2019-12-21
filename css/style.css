@@ -63,7 +63,7 @@ only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (
 		min-height: 85vh;
 		/* min-width: 1100px; */
 		margin: 1rem auto;
-		 /* 0 auto 3rem auto; */
+		/* 0 auto 3rem auto; */
 		/* left: 2.5%; */
 		text-align: center;
 		padding-top: 3px;
@@ -230,6 +230,7 @@ footer {
 	padding: 2rem;
 	top: -3rem;
 }
+
 .aboutText {
 	font-family: Merriweather, serif;
 	flex-grow: 2;
@@ -282,8 +283,8 @@ img.about {
 
 /* #ingred { */
 
-	/* position: absolute; */
-	/* float: left;
+/* position: absolute; */
+/* float: left;
 	top: 170px;
 	left: 2em; */
 
@@ -433,6 +434,7 @@ nav a:hover {
 	text-align: center;
 	border-bottom: 5px solid #90100D;
 }
+
 .pgTitle {
 	position: relative;
 	left: -1rem;
@@ -491,7 +493,7 @@ nav a:hover {
 }
 
 .thumb {
-	max-height: 10em;
+	max-height: 8em;
 	max-width: 15rem;
 	box-shadow: 9px 9px 19px 6px black;
 	margin-left: 15px;
